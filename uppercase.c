@@ -9,11 +9,9 @@ int i;
 int length;
 length = strlen(input);
 
-
- for(i=0; i<length; i++){
-putchar(toupper(input[i]));
+  for(i=0; i<length; i++){
+    putchar(toupper(input[i]));
 }}
-
 
 int main( int argc, char **argv)  { 
    upper(argv[1]);
